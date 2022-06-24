@@ -1,0 +1,28 @@
+header {
+  background: rgb(238, 150, 251);
+  background: radial-gradient(circle, rgb(238, 150, 251) 0%, rgb(247, 112, 161) 100%);
+  color: white;
+}
+
+header a {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 10px;
+  line-height: 10px;
+}
+
+header a:hover {
+  color: palevioletred;
+}
+
+header a span {
+  color: white;
+}
+
+.card:hover {
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1);
+  box-shadow: 5px 10px #043071;
+}
+
